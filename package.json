@@ -1,11 +1,11 @@
 {
-  "name": "todo-list-",
+  "name": "productive-habesha",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -18,14 +18,12 @@
     "url": "https://github.com/Natnaelweldu/Todo-List-/issues"
   },
   "homepage": "https://github.com/Natnaelweldu/Todo-List-#readme",
-  "dependencies": {
-    "font-awesome": "^4.7.0",
-    "normalize.css": "^8.0.1"
-  },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
-    "webpack": "^5.97.1"
+    "webpack": "^5.97.1",
+    "webpack-merge": "^6.0.1"
   }
 }
