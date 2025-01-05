@@ -1,8 +1,15 @@
-
-
-:root {
-    --primary-clr: #EEEEEE;
-    --secondary-clr: #1C1D22;
-    --primary-font: "Exo 2", "Roboto", sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+:root {
+  --primary-clr: #eeeeee;
+  --secondary-clr: #1c1d22;
+  --primary-font: "Exo 2", "Roboto", sans-serif;
+}
+
+i {
+    color: #fff;
+}
